@@ -1,10 +1,11 @@
 body {
-    background-color: none; /* placeholder */
+    background-color: none; /* placeholder (change to desired color later) */
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    border: 3px solid black; /* wireframe */
 }
 
 
@@ -14,10 +15,39 @@ header nav ul {
     justify-content: space-between;
     margin-top: 30px;
     font-size: 22px;
+    border: 2px solid blue; /* wireframe */ 
 }
 
 header nav ul a {
     padding: 15px 25px;
     text-decoration: none;
-    color: black; 
+    color: black;
+    border: 1px solid red; /* wireframe */ 
+}
+
+ /* wireframing */
+
+.image {
+    border: 3px solid black; 
+    padding-bottom: 400px;
+}
+
+.about-me {
+    border: 3px solid black; 
+    padding-bottom: 400px;
+}
+
+.work {
+    border: 3px solid black; 
+    padding-bottom: 400px;
+}
+
+.contact-me {
+    border: 3px solid black; 
+    padding-bottom: 400px;
+}
+
+footer {
+    border: 3px solid black; 
+    padding-bottom: 75px;
 }
