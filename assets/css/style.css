@@ -47,11 +47,13 @@ header nav ul a {
     height: 25%;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 10%;
+    margin-left: 1150px;
+    margin-bottom: 25px;
 }
 
 .about-me {
-    border: 3px solid black; 
+    border: 3px solid rgb(180, 166, 166); 
     padding-bottom: 400px;
 }
 
@@ -59,18 +61,26 @@ header nav ul a {
     border: 3px solid black;
     display: flex;
     justify-content: space-around;
+    position: relative;
+}
+
+.work h2 {
+    position: absolute;
 }
 
 .built {
     border: 2px solid blue; 
-    width: 40%;
-    height: 400px;
 }
 
 .debug {
     border: 2px solid green; 
+}
+
+.built, .debug {
     width: 40%;
     height: 400px;
+    margin-top: 70px;
+    font-size: 17px;
 }
 
 .contact-me {
@@ -78,7 +88,27 @@ header nav ul a {
     padding-bottom: 400px;
 }
 
+.resume {
+    border: 3px solid black; 
+    padding-bottom: 400px;
+}
+
+.about-me, .work, .contact-me, .resume h2 {
+    text-align: center;
+    padding-top: 15px;
+}
+
 footer {
     border: 3px solid black; 
-    padding-bottom: 75px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+.copy {
+    text-align: right;
 }
