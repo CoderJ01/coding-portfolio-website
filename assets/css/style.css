@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
     padding-top: 15px;
     background-image: url(../images/bluish-aurora.jpg);
-    background-size: 1350px 700px;
+    background-size: 1350px 250px;
     position: 50%;
 }
 
@@ -69,15 +69,17 @@ header nav ul a {
 }
 
 .about-me {
-    border: 3px solid rgb(180, 166, 166); 
     padding-bottom: 400px;
+    background-image: url(../images/aurora-sky.jpg);
+    background-size: 1350px 550px;  
 }
 
 .work {
-    border: 3px solid black;
     display: flex;
     justify-content: space-around;
     position: relative;
+    background-image: url(../images/aurora-sky-2.jpg);
+    background-size: 1350px 550px;  
 }
 
 .work h2 {
@@ -100,20 +102,22 @@ header nav ul a {
 }
 
 .contact-me {
-    border: 3px solid black; 
     padding-bottom: 400px;
+    background-image: url(../images/aurora-sky-3.jpg);
+    background-size: 1350px 500px;  
 }
 
 .resume {
-    border: 3px solid black; 
     padding-bottom: 400px;
+    background-image: url(../images/aurora-sky-4.jpg);
+    background-size: 1350px 520px;  
 }
 
 .about-me, .work, .contact-me, .resume h2 {
     text-align: center;
     padding-top: 15px;
     font-size: 50px;
-    color: #071D5E;
+    color: white;
 }
 
 .resume h2 {
@@ -121,16 +125,19 @@ header nav ul a {
 }
 
 footer {
-    border: 3px solid black; 
     padding-bottom: 40px;
     display: flex;
     justify-content: space-between;
+    background-image: url(../images/bluish-aurora.jpg);
+    background-size: 1350px 250px;
 }
 
 footer h2 {
     font-size: 20px;
+    color: white;
 }
 
 .copy {
     text-align: right;
+    color: white;
 }
