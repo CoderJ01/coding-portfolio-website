@@ -4,7 +4,7 @@
 
 body {
     background-color: none;
-    background-image: url(../images/aurora-sky.jpg);
+    background-image: url("../images/image-body.jpg");
     background-size: 1350px 1000px;  
 }
 
@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
-    background-image: url(../images/bluish-aurora.jpg);
+    background-image: url("../images/image-header.jpg");
     background-size: 1350px 250px;
     position: 50%;
     position: fixed;
@@ -42,7 +42,7 @@ header nav ul a {
 .image {
     padding-bottom: 400px;
     position: relative;
-    background-image: url("../images/keyboard.jpg");
+    background-image: url("../images/image.jpg");
     background-size: 1350px 700px;
 }
 
@@ -69,7 +69,7 @@ header nav ul a {
 
 .about-me {
     padding-bottom: 400px;
-    background-image: url(../images/aurora-sky.jpg);
+    background-image: url("../images/image-about-me.jpg");
     background-size: 1350px 550px;  
     position: relative;
     display: flex;
@@ -92,7 +92,7 @@ header nav ul a {
     display: flex;
     justify-content: space-around;
     position: relative;
-    background-image: url(../images/aurora-sky-2.jpg);
+    background-image: url("../images/image-work.jpg");
     background-size: 1350px 800px;
     padding-bottom: 100px;  
 }
@@ -125,7 +125,7 @@ header nav ul a {
 
 .contact-me {
     padding-bottom: 400px;
-    background-image: url(../images/aurora-sky-3.jpg);
+    background-image: url("../images/image-contact-me.jpg");
     background-size: 1350px 500px; 
     display: flex;
     justify-content: center; 
@@ -138,7 +138,7 @@ header nav ul a {
 
 .d-for-contact {
     height: 50%;
-    background-image: url(../images/space.jpg);
+    background-image: url("../images/image-d.jpg");
     background-size: 1000px 400px;
 }
 
@@ -149,7 +149,7 @@ header nav ul a {
 
 .resume {
     padding-bottom: 400px;
-    background-image: url(../images/aurora-sky-4.jpg);
+    background-image: url("../images/image-resume.jpg");
     background-size: 1350px 510px;  
 }
 
@@ -168,7 +168,7 @@ footer {
     padding-bottom: 40px;
     display: flex;
     justify-content: space-between;
-    background-image: url(../images/bluish-aurora.jpg);
+    background-image: url("../images/image-header.jpg");
     background-size: 1350px 250px;
 }
 
