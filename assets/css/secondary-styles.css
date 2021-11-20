@@ -40,6 +40,20 @@ header {
     .background {
         height: 125%;
         background-size: 2625px 1400px;
+        position: relative;
+        display: flex;
     }
+
+    .background h1 {
+        position: absolute;
+        margin-top: 150px;
+    }
+
+    .experience {
+        position: absolute;
+        margin-top: 225px;
+    }
+
+
 }
 
