@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-size: 1365px 250px;
+    position: static;
+}
+
+.background {
+    border: 5px solid black;
+    padding-bottom: 95px;
+    text-align: center;
+    background-image: url("../images/image-resume.jpg");
+    background-size: 1500px 800px;
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+}
+
+.background h1 {
+    color: var(--primary-color);
+    font-size: 50px;
+    position: absolute;
+}
+
+.experience-a, .experience-b {
+    border: 3px solid white;
+    margin-top: 100px;
+    position: relative;
+    width: 50%;
+    height: 600px;
+}
+
+.experience-a h2, .experience-b h2{
+    color: var(--primary-color);
+    text-align: left;
+}
