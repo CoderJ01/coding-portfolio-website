@@ -11,7 +11,7 @@ header {
     padding-bottom: 95px;
     text-align: center;
     background-image: url("../images/image-resume.jpg");
-    background-size: 1500px 800px;
+    background-size: 1500px 850px;
     position: relative;
     justify-content: center;
     display: flex;
@@ -21,24 +21,11 @@ header {
     color: var(--primary-color);
     font-size: 50px;
     position: absolute;
-}
-
-.background h2 {
-    font-size: 35px;
-}
-
-.background p {
-    font-size: 20px;
-}
-
-.background h2, .background p {
-    color: var(--primary-color);
-    text-align: left;
+    margin-top: 75px;
 }
 
 .experience {
-    margin-top: 100px;
-    position: relative;
+    margin-top: 150px;
     width: 50%;
     height: 600px;
 }
@@ -47,4 +34,12 @@ header {
     max-width: 100%;
     border: 4px solid var(--secondary-color);
 }  
+
+@media screen and (max-width: 980px) {
+
+    .background {
+        height: 125%;
+        background-size: 2625px 1400px;
+    }
+}
 
