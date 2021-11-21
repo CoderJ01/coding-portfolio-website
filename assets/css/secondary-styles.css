@@ -54,6 +54,12 @@ header {
         margin-top: 225px;
     }
 
+}
 
+@media screen and (max-width: 768) {
+    
+    .background {
+        background-size: 3000px 1600px;
+    }
 }
 

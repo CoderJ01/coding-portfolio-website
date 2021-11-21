@@ -45,20 +45,12 @@ header nav ul a {
     background-size: 1350px 700px;
 }
 
-.avatar {
-    height: 25%;
+.image img {
+    height: 90px;
+    width: 90px;
     position: absolute;
-    bottom: 0;
-    width: 10%;
-    margin-left: 1150px;
-    margin-bottom: 25px;
-}
-
-.avatar img {
-    max-height: 100%;
-    max-width: 100%;
-    position: absolute;
-    margin-left: 75px;
+    margin-top: 280px;
+    margin-left: 1225px;
 }
 
 .about-me {
@@ -174,12 +166,22 @@ footer h2 {
 @media screen and (max-width: 980px) {
 
     body {
-       width: 137%;
+      width: 137%;
     }
 
     header {
         position: relative;
+        justify-content: center; /* needed */
     }
+
+    header h1 {
+        position: absolute;
+    }
+
+    header nav ul {
+        margin-top: 40px;
+        margin-right: 50px;
+      }
 
     .image {
         position: relative;
@@ -187,10 +189,37 @@ footer h2 {
         display: flex;
     }
 
-    .avatar {
+    .image img {
+        margin-top: 390px;
+        margin-left: 1190px;
+    }
+
+    .about-me {
+  
+    }
+
+    .description {
+
+    }
+
+    .work {
+        display: flex;
+        position: relative;
+        padding-bottom: 1000px;
+        background-size: 1350px 1100px;
+    }
+
+    .work h2 {
+        position: relative;
+    }
+
+    .built, .debug {
         position: absolute;
-        margin-left: 1080px;
-        margin-bottom: 30px;
+        flex-grow: 1;
+    }
+
+    .debug {
+        margin-top: 600px;
     }
 
     .contact-me {
@@ -202,9 +231,18 @@ footer h2 {
         height: 70%;
         width: 410px;
     }
- 
+
+    footer {
+        position: relative;
+        justify-content: center;
+    }
+
+    .copy {
+        margin-top: 25px;
+        position: absolute;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    
+
 }
