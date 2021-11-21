@@ -172,33 +172,62 @@ footer h2 {
     header {
         position: relative;
         justify-content: center; /* needed */
+        padding-bottom: 0px;
     }
 
     header h1 {
         position: absolute;
+        font-size: 75px;
     }
 
     header nav ul {
         margin-top: 40px;
         margin-right: 50px;
+        margin-top: 100px;
+        font-size: 40px;
+        color: var(--secondary-color);
+
+      }
+
+    header nav ul li a {
+        color: none; /* placeholder (fix later) */
       }
 
     .image {
         position: relative;
         height: 11%;
-        display: flex;
     }
 
     .image img {
-        margin-top: 390px;
-        margin-left: 1190px;
+        margin-left: 555px;
+        margin-top: 125px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .about-me {
+        padding-bottom: 900px;
+        background-size: 2945px 1200px;
+    }
+
+    .about-me h2, .work h2, .contact-me h2 {
+        font-size: 150px;
+    }
+
+    .description {
+        margin-top: 170px;
+        width: 55%;
+    }
+
+    .description p, .contact-me p, .contact-me ul li {
+        font-size: 50px;
     }
 
     .work {
         display: flex;
         position: relative;
-        padding-bottom: 1000px;
-        background-size: 1350px 1100px;
+        padding-bottom: 1250px;
+        background-size: 1620px 1450px;
     }
 
     .work h2 {
@@ -207,34 +236,74 @@ footer h2 {
 
     .built, .debug {
         position: absolute;
-        flex-grow: 1;
+    }
+
+    .built {
+        margin-top: 200px;
+    }
+
+    .built img {
+        height: 500px;
+    }
+
+    .built h3, .debug h3 {
+        font-size: 60px;
+    }
+
+    .built h4, .debug h4 {
+        font-size: 35px;
     }
 
     .debug {
-        margin-top: 600px;
+        margin-top: 900px;
     }
 
     .contact-me {
         display: flex;
         position: relative;
+        padding-bottom: 550px;
     }
 
     .d-for-contact {
-        height: 70%;
-        width: 410px;
+        height: 500px;
+        width: 700px;
+        background-size: 1200px 500px;
+    }
+
+    .d-for-contact ul li {
     }
 
     footer {
         position: relative;
         justify-content: center;
+        padding-bottom: 60px;
+    }
+
+    footer h2 {
+        font-size: 40px;
     }
 
     .copy {
-        margin-top: 25px;
+        margin-top: 50px;
         position: absolute;
+        font-size: 25px;
     }
 }
 
 @media screen and (max-width: 768px) {
 
+    body {
+        width: 166%;
+    }
+
+    .image {
+        position: relative;
+        height: 11%;
+        display: flex;
+    }
+
+    .image img {
+        margin-top: 370px;
+        margin-left: 1150px;
+    }
 }
