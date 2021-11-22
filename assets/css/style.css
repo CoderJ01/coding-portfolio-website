@@ -174,7 +174,7 @@ header nav ul a:active {
 }
 
 .d-for-contact ul li a:active {
-    opacity: 0;
+    color: #1B68DE;
 }
 
 .contact-me ul li {
@@ -207,16 +207,17 @@ footer h2 {
     color: var(--primary-color);
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 550px) and (max-height: 820px) {
 
     body {
-      width: 137%;
+      width: 121%;
     }
 
     header {
         position: relative;
         justify-content: center; /* needed */
         padding-bottom: 20px;
+        text-align: center;
     }
 
     header h1 {
@@ -227,14 +228,9 @@ footer h2 {
     header nav ul {
         margin-top: 40px;
         margin-right: 50px;
-        margin-top: 100px;
-        font-size: 40px;
+        margin-top: 175px;
+        font-size: 25px;
         color: var(--secondary-color);
-
-      }
-
-      header nav ul li a {
-          background-color: var(--secondary-color);
       }
 
     .image {
@@ -243,34 +239,36 @@ footer h2 {
     }
 
     .image img {
-        margin-left: 555px;
+        margin-left: 200px;
         margin-top: 125px;
         width: 250px;
         height: 250px;
+        border-radius: 130px;
+        border: 10px solid var(--secondary-color);
     }
 
     .about-me {
-        padding-bottom: 900px;
-        background-size: 2945px 1200px;
+        padding-bottom: 1000px;
+        background-size: 2900px 1250px;
     }
 
     .about-me h2, .work h2, .contact-me h2 {
-        font-size: 150px;
+        font-size: 100px;
     }
 
     .description {
         margin-top: 170px;
-        width: 55%;
+        width: 75%;
     }
 
     .description p, .contact-me p, .contact-me ul li {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .work {
         display: flex;
         position: relative;
-        padding-bottom: 1250px;
+        padding-bottom: 1300px;
         background-size: 1620px 1450px;
     }
 
@@ -284,22 +282,40 @@ footer h2 {
 
     .built {
         margin-top: 200px;
+        margin-right: 285px;
     }
 
     .built img {
         height: 500px;
     }
 
+    .built h3 {
+        margin-left: 210px;
+    }
+    
+    .built h4 {
+        margin-left: 190px;
+    }
+
     .built h3, .debug h3 {
-        font-size: 60px;
+        font-size: 55px;
     }
 
     .built h4, .debug h4 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .debug {
-        margin-top: 900px;
+        margin-top: 950px;
+        margin-right: 70px;
+    }
+
+    .debug h3 {
+        margin-left: 45px;
+    }
+
+    .debug h4 {
+        margin-left: 46px;
     }
 
     .contact-me {
@@ -309,9 +325,13 @@ footer h2 {
     }
 
     .d-for-contact {
-        height: 500px;
-        width: 700px;
+        height: 400px;
+        width: 550px;
         background-size: 1200px 500px;
+    }
+
+    .built img, .debug img, .d-for-contact {
+        border: 10px solid var(--secondary-color);
     }
 
     footer {
@@ -328,23 +348,5 @@ footer h2 {
         margin-top: 50px;
         position: absolute;
         font-size: 25px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-
-    body {
-        width: 166%;
-    }
-
-    .image {
-        position: relative;
-        height: 11%;
-        display: flex;
-    }
-
-    .image img {
-        margin-top: 370px;
-        margin-left: 1150px;
     }
 }
