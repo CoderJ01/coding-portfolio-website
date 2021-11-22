@@ -45,6 +45,11 @@ header nav ul a:hover {
     text-shadow: none;
 }
 
+header nav ul a:active {
+    color: var(--secondary-color);
+    background: var(--primary-color);
+}
+
 .image {
     padding-bottom: 400px;
     position: relative;
@@ -126,8 +131,18 @@ header nav ul a:hover {
     opacity: 0.5;
 }
 
+.built img:active {
+    opacity: 1.0;
+    border-color: var(--primary-color);
+}
+
 .debug img:hover {
     opacity: 0.5;
+}
+
+.debug img:active {
+    opacity: 1.0;
+    border-color: var(--primary-color);
 }
 
 .contact-me {
@@ -148,6 +163,18 @@ header nav ul a:hover {
     background-image: url("../images/image-d.jpg");
     background-size: 1000px 400px;
     border: 4px solid var(--secondary-color);
+}
+
+.d-for-contact ul li a {
+    color: var(--primary-color);
+}
+
+.d-for-contact ul li a:hover {
+    color: var(--secondary-color);
+}
+
+.d-for-contact ul li a:active {
+    opacity: 0;
 }
 
 .contact-me ul li {
