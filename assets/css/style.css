@@ -229,9 +229,20 @@ footer h2 {
         margin-top: 40px;
         margin-right: 50px;
         margin-top: 175px;
-        font-size: 25px;
+        font-size: 20px;
+    }
+
+    header nav ul a {
         color: var(--secondary-color);
-      }
+        font-weight: bold;
+        background: var(--primary-color);
+        border-radius: 30px;
+    }
+
+    header nav ul a:active {
+        color: var(--primary-color);
+        background: var(--secondary-color);
+    }
 
     .image {
         position: relative;
@@ -248,8 +259,8 @@ footer h2 {
     }
 
     .about-me {
-        padding-bottom: 1000px;
-        background-size: 2900px 1250px;
+        padding-bottom: 1150px;
+        background-size: 2900px 1300px;
     }
 
     .about-me h2, .work h2, .contact-me h2 {
