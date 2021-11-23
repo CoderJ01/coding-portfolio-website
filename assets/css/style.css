@@ -479,3 +479,15 @@ footer h2 {
         margin-left: 1205px;
     }
 }
+
+@media screen and (max-width: 1024px) {
+
+    body {
+        width: 129%;
+    }
+
+    .d-for-contact {
+        height: 300px;
+    }
+    
+}
