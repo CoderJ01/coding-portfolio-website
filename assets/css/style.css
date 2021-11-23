@@ -207,7 +207,7 @@ footer h2 {
     color: var(--primary-color);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 380px) {
 
     body {
       width: 100%;
