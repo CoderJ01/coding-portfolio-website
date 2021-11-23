@@ -486,8 +486,19 @@ footer h2 {
         width: 129%;
     }
 
+    .image img {
+        margin-left: 1200px;
+    }
+
     .d-for-contact {
         height: 300px;
     }
-    
+}
+
+@media screen and (max-width: 1366px) {
+
+    .d-for-contact {
+        height: 300px;
+        background-size: 600px 500px; 
+    }
 }
