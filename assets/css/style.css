@@ -207,40 +207,39 @@ footer h2 {
     color: var(--primary-color);
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 375px) {
 
     body {
-      width: 123%;
+      width: 100%;
       position: relative;
     }
 
     header {
+        width: 100%;
         position: relative;
+        justify-content: center;
         padding-bottom: 20px;
-        display: flex;
-        flex-wrap: wrap;
     }
 
     header h1 {
         position: absolute;
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
-        margin-right: 190px;
+        margin-right: 100px;
     }
 
     header nav ul {
-        position: relative;
-        margin-top: 125px;
-        margin-right: 750px;
-        width: 20%;
-        justify-content: center;
+        margin-top: 100px;
+        margin-right: 125px;
+        padding-left: 40px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     header nav ul a {
         color: var(--primary-color);
         font-weight: bold;
-        border-radius: 30px;
-        font-size: 10px;
+        font-size: 15px;
     }
 
     header nav ul a:active {
@@ -254,41 +253,49 @@ footer h2 {
     }
 
     .image img {
-        margin-left: 200px;
-        margin-top: 125px;
-        width: 250px;
-        height: 250px;
+        margin-left: 23px;
+        margin-top: 90px;
+        width: 200px;
+        height: 200px;
         border-radius: 130px;
         border: 10px solid var(--secondary-color);
     }
 
     .about-me {
-        padding-bottom: 1150px;
-        background-size: 2900px 1300px;
+        padding-bottom: 1000px;
+        background-size: 1500px 1100px;
+        width: 100%;
+    }
+
+    .about-me h2 {
+        margin-right: 110px;
     }
 
     .about-me h2, .work h2, .contact-me h2 {
-        font-size: 100px;
+        font-size: 40px;
     }
 
     .description {
-        margin-top: 170px;
-        width: 75%;
+        margin-top: 75px;
+        margin-right: 113px;
+        width: 50%;
     }
 
     .description p, .contact-me p, .contact-me ul li {
-        font-size: 45px;
+        font-size: 25px;
     }
 
     .work {
         display: flex;
         position: relative;
-        padding-bottom: 1300px;
-        background-size: 1620px 1450px;
+        padding-bottom: 700px;
+        background-size: 1600px 1000px;
+        width: 100%;
     }
 
     .work h2 {
         position: relative;
+        margin-right: 110px;
     }
 
     .built, .debug {
@@ -296,53 +303,67 @@ footer h2 {
     }
 
     .built {
-        margin-top: 200px;
-        margin-right: 285px;
+        margin-top: 90px;
+        margin-right: 195px;
     }
 
     .built img {
-        height: 500px;
+        height: 200px;
     }
 
     .built h3 {
-        margin-left: 210px;
+        margin-left: 80px;
     }
     
     .built h4 {
-        margin-left: 190px;
+        margin-left: 65px;
     }
 
     .built h3, .debug h3 {
-        font-size: 55px;
+        font-size: 25px;
     }
 
     .built h4, .debug h4 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .debug {
-        margin-top: 950px;
-        margin-right: 70px;
+        margin-top: 450px;
+        margin-right: 130px;
     }
 
     .debug h3 {
-        margin-left: 45px;
+        margin-left: 20px;
     }
 
     .debug h4 {
-        margin-left: 46px;
+        margin-left: 20px;
+    }
+
+    .debug img {
+        height: 150px;
+        width: 150px;
     }
 
     .contact-me {
         display: flex;
         position: relative;
-        padding-bottom: 550px;
+        padding-bottom: 200px;
+        width: 100%;
+    }
+
+    .contact-me h2 {
+        margin-right: 110px;
+    }
+
+    .contact-me ul li {
+        font-size: 15px;
     }
 
     .d-for-contact {
-        height: 400px;
-        width: 550px;
-        background-size: 1200px 500px;
+        height: 150px;
+        width: 200px;
+        background-size: 300px 150px;
     }
 
     .built img, .debug img, .d-for-contact {
@@ -351,17 +372,18 @@ footer h2 {
 
     footer {
         position: relative;
-        justify-content: center;
         padding-bottom: 60px;
     }
 
     footer h2 {
-        font-size: 40px;
+        font-size: 20px;
+        width: 100%;
     }
 
     .copy {
-        margin-top: 50px;
+        margin-top: 25px;
         position: absolute;
-        font-size: 25px;
+        font-size: 10px;
+        text-align: left;
     }
 }

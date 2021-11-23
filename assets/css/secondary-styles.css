@@ -39,6 +39,7 @@ header {
 
     header {
         height: 95px;
+        position: relative;
     }
 
     header h1 {
