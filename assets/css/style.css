@@ -207,6 +207,128 @@ footer h2 {
     color: var(--primary-color);
 }
 
+@media screen and (max-width: 1366px) {
+
+    .d-for-contact {
+        height: 300px;
+        background-size: 600px 500px; 
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    body {
+        width: 129%;
+    }
+
+    .image img {
+        margin-left: 1200px;
+    }
+
+    .d-for-contact {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        width: 100%;
+        position: relative;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .image img {
+        margin-left: 1205px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    body {
+        width: 100%;
+        position: relative;
+    }
+    
+    header {
+        width: 100%;
+        position: relative;
+        padding-bottom: 20px;
+    }
+
+    header h1 {
+        text-align: center;
+        position: absolute;
+        margin-left: 109px;
+    }
+
+    header nav ul {
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+
+    .image img {
+        height: 200px;
+        width: 200px;
+        margin-top: 100px;
+        margin-left: 160px;
+        border-radius: 100px;
+        border: 10px solid var(--secondary-color);
+    }
+
+    .about-me {
+        padding-bottom: 475px;
+        background-size: 1800px 950px; 
+    }
+
+    .description {
+        width: 75%;
+    }
+
+    .work {
+        padding-bottom: 1100px;
+        position: relative;
+        background-size: 2300px 1150px; 
+    }
+
+    .built, .debug {
+        position: absolute;
+    }
+
+    .built {
+        margin-top: 125px;
+        margin-right: 200px;
+    }
+
+    .built h3 {
+        margin-left: 180px;
+    }
+
+    .built h4 {
+        margin-left: 155px;
+    }
+
+    .debug {
+        margin-top: 650px;
+        margin-right: 125px;
+    }
+
+    .d-for-contact {
+        height: 300px;
+        background-size: 500px 500px; 
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    body {
+        /* width: 200%;    */
+    }
+}
+
 @media screen and (max-width: 375px) {
 
     body {
@@ -388,117 +510,4 @@ footer h2 {
     }
 }
 
-@media screen and (max-width: 540px) {
 
-    body {
-        width: 100%;
-        position: relative;
-    }
-    
-    header {
-        width: 100%;
-        position: relative;
-        padding-bottom: 20px;
-    }
-
-    header h1 {
-        text-align: center;
-        position: absolute;
-        margin-left: 109px;
-    }
-
-    header nav ul {
-        margin-top: 50px;
-        margin-left: 5px;
-    }
-
-    .image img {
-        height: 200px;
-        width: 200px;
-        margin-top: 100px;
-        margin-left: 160px;
-        border-radius: 100px;
-        border: 10px solid var(--secondary-color);
-    }
-
-    .about-me {
-        padding-bottom: 475px;
-        background-size: 1800px 950px; 
-    }
-
-    .description {
-        width: 75%;
-    }
-
-    .work {
-        padding-bottom: 1100px;
-        position: relative;
-        background-size: 2300px 1150px; 
-    }
-
-    .built, .debug {
-        position: absolute;
-    }
-
-    .built {
-        margin-top: 125px;
-        margin-right: 200px;
-    }
-
-    .built h3 {
-        margin-left: 180px;
-    }
-
-    .built h4 {
-        margin-left: 155px;
-    }
-
-    .debug {
-        margin-top: 650px;
-        margin-right: 125px;
-    }
-
-    .d-for-contact {
-        height: 300px;
-        background-size: 500px 500px; 
-    }
-}
-
-@media screen and (max-width: 768px) {
-
-    body {
-        width: 173%;
-        position: relative;
-    }
-
-    header {
-        width: 100%;
-    }
-
-    .image img {
-        margin-left: 1205px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-
-    body {
-        width: 129%;
-    }
-
-    .image img {
-        margin-left: 1200px;
-    }
-
-    .d-for-contact {
-        height: 300px;
-    }
-}
-
-@media screen and (max-width: 1366px) {
-
-    .d-for-contact {
-        height: 300px;
-        background-size: 600px 500px; 
-    }
-}
