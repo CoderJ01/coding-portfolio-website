@@ -218,7 +218,7 @@ footer h2 {
 @media screen and (max-width: 1024px) {
 
     body {
-        width: 129%;
+        
     }
 
     .image img {
@@ -232,17 +232,13 @@ footer h2 {
 
 @media screen and (max-width: 768px) {
 
-    body {
-        width: 100%;
-        position: relative;
-    }
-
-    header {
-        width: 100%;
-    }
-
     .image img {
-        margin-left: 1205px;
+        bottom: 13%;
+        right: 40%;
+        width: 20%;
+        height: 50%;
+        border-radius: 110px;
+        border: 10px solid var(--secondary-color);
     }
 }
 
