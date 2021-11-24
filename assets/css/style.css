@@ -209,301 +209,47 @@ footer h2 {
 
 @media screen and (max-width: 1366px) {
 
-    .d-for-contact {
-        height: 300px;
-        background-size: 600px 500px; 
-    }
-}
-
-@media screen and (max-width: 1024px) {
-
-    body {
-        
-    }
-
     .image img {
-        margin-left: 1200px;
-    }
-
-    .d-for-contact {
-        height: 300px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-
-    .image img {
-        bottom: 13%;
-        right: 40%;
         width: 20%;
-        height: 50%;
-        border-radius: 110px;
+        height: 60%;
+        right: 40%;
+        bottom: 10%;
         border: 10px solid var(--secondary-color);
-    }
-}
-
-@media screen and (max-width: 540px) {
-
-    body {
-        width: 100%;
-        position: relative;
-    }
-    
-    header {
-        width: 100%;
-        position: relative;
-        padding-bottom: 20px;
-    }
-
-    header h1 {
-        text-align: center;
-        position: absolute;
-        margin-left: 109px;
-    }
-
-    header nav ul {
-        margin-top: 50px;
-        margin-left: 5px;
-    }
-
-    .image img {
-        height: 200px;
-        width: 200px;
-        margin-top: 100px;
-        margin-left: 160px;
-        border-radius: 100px;
-        border: 10px solid var(--secondary-color);
-    }
-
-    .about-me {
-        padding-bottom: 475px;
-        background-size: 1800px 950px; 
-    }
-
-    .description {
-        width: 75%;
-    }
-
-    .work {
-        padding-bottom: 1100px;
-        position: relative;
-        background-size: 2300px 1150px; 
-    }
-
-    .built, .debug {
-        position: absolute;
-    }
-
-    .built {
-        margin-top: 125px;
-        margin-right: 200px;
-    }
-
-    .built h3 {
-        margin-left: 180px;
-    }
-
-    .built h4 {
-        margin-left: 155px;
-    }
-
-    .debug {
-        margin-top: 650px;
-        margin-right: 125px;
+        border-radius: 40%;
     }
 
     .d-for-contact {
-        height: 300px;
-        background-size: 500px 500px; 
-    }
-}
-
-@media screen and (max-width: 414px) {
-
-    body {
-        /* width: 200%;    */
-    }
-}
-
-@media screen and (max-width: 375px) {
-
-    body {
-      width: 100%;
-      position: relative;
-    }
-
-    header {
-        width: 100%;
-        position: relative;
-        justify-content: center;
-        padding-bottom: 20px;
-    }
-
-    header h1 {
-        position: absolute;
-        font-size: 40px;
-        text-align: center;
-        margin-right: 100px;
-    }
-
-    header nav ul {
-        margin-top: 100px;
-        margin-right: 125px;
-        padding-left: 40px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    header nav ul a {
-        color: var(--primary-color);
-        font-weight: bold;
-        font-size: 15px;
-    }
-
-    header nav ul a:active {
-        color: var(--primary-color);
-        background: var(--secondary-color);
-    }
-
-    .image {
-        position: relative;
-        height: 11%;
-    }
-
-    .image img {
-        margin-left: 23px;
-        margin-top: 90px;
-        width: 200px;
-        height: 200px;
-        border-radius: 130px;
-        border: 10px solid var(--secondary-color);
-    }
-
-    .about-me {
-        padding-bottom: 1000px;
-        background-size: 1500px 1100px;
-        width: 100%;
-    }
-
-    .about-me h2 {
-        margin-right: 110px;
-    }
-
-    .about-me h2, .work h2, .contact-me h2 {
-        font-size: 40px;
-    }
-
-    .description {
-        margin-top: 75px;
-        margin-right: 113px;
-        width: 50%;
-    }
-
-    .description p, .contact-me p, .contact-me ul li {
-        font-size: 25px;
-    }
-
-    .work {
-        display: flex;
-        position: relative;
-        padding-bottom: 700px;
-        background-size: 1600px 1000px;
-        width: 100%;
-    }
-
-    .work h2 {
-        position: relative;
-        margin-right: 110px;
-    }
-
-    .built, .debug {
-        position: absolute;
-    }
-
-    .built {
-        margin-top: 90px;
-        margin-right: 195px;
-    }
-
-    .built img {
-        height: 200px;
-    }
-
-    .built h3 {
-        margin-left: 80px;
-    }
-    
-    .built h4 {
-        margin-left: 65px;
-    }
-
-    .built h3, .debug h3 {
-        font-size: 25px;
-    }
-
-    .built h4, .debug h4 {
-        font-size: 20px;
-    }
-
-    .debug {
-        margin-top: 450px;
-        margin-right: 130px;
-    }
-
-    .debug h3 {
-        margin-left: 20px;
-    }
-
-    .debug h4 {
-        margin-left: 20px;
-    }
-
-    .debug img {
-        height: 150px;
-        width: 150px;
-    }
-
-    .contact-me {
-        display: flex;
-        position: relative;
-        padding-bottom: 200px;
-        width: 100%;
-    }
-
-    .contact-me h2 {
-        margin-right: 110px;
-    }
-
-    .contact-me ul li {
-        font-size: 15px;
-    }
-
-    .d-for-contact {
-        height: 150px;
-        width: 200px;
-        background-size: 300px 150px;
+        height: 30%;
     }
 
     .built img, .debug img, .d-for-contact {
         border: 10px solid var(--secondary-color);
     }
 
-    footer {
-        position: relative;
-        padding-bottom: 60px;
-    }
 
-    footer h2 {
-        font-size: 20px;
-        width: 100%;
-    }
+}
 
-    .copy {
-        margin-top: 25px;
-        position: absolute;
-        font-size: 10px;
-        text-align: left;
-    }
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 540px) {
+
+    
+}
+
+@media screen and (max-width: 414px) {
+
+
+}
+
+@media screen and (max-width: 375px) {
+
+    
 }
 
 
