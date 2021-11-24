@@ -225,11 +225,22 @@ footer h2 {
     .built img, .debug img, .d-for-contact {
         border: 10px solid var(--secondary-color);
     }
-
-
 }
 
 @media screen and (max-width: 1024px) {
+    
+    .image img {
+        width: 25%;
+        right: 35%;
+    }
+
+    .about-me {
+        padding-bottom: 42%;
+    }
+
+    .d-for-contact {
+        height: 20%;
+    }
 
 }
 
