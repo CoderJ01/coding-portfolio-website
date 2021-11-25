@@ -370,6 +370,14 @@ footer h2 {
         width: 75%;
     }
 
+    footer h2 {
+        font-size: 20px;
+    }
+
+    .copy {
+        font-size: 15px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
