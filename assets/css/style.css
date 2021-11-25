@@ -1,3 +1,4 @@
+/* CSS for overall website (index.html and resume.html) */
 :root {
     --primary-color: white;
     --secondary-color: #25B681;
@@ -257,8 +258,8 @@ footer h2 {
     }
 
     .about-me {
-        padding-bottom: 70%;
-        background-size: 1595px 650px;
+        padding-bottom: 80%;
+        background-size: 1595px 750px;
     }
 
     .built img {
@@ -357,8 +358,8 @@ footer h2 {
     }
 
     .about-me {
-        padding-bottom: 150%;
-        background-size: 1595px 725px;
+        padding-bottom: 160%;
+        background-size: 1595px 775px;
     }
 
     .debug {
@@ -388,8 +389,8 @@ footer h2 {
 @media screen and (max-width: 375px) {
 
     .about-me {
-        padding-bottom: 170%;
-        background-size: 1840px 750px;
+        padding-bottom: 185%;
+        background-size: 1840px 800px;
     }
 
     .debug {
@@ -409,10 +410,6 @@ footer h2 {
 
     footer h2 {
         font-size: 18px;
-    }
-
-    .copy {
-        font-size: 15px;
     }
     
 }
