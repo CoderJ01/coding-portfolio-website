@@ -246,20 +246,160 @@ footer h2 {
 
 @media screen and (max-width: 768px) {
 
+    .image img {
+        height: 50%;
+        border-radius: 50%;
+    }
+
+    .about-me {
+        padding-bottom: 70%;
+        background-size: 1595px 650px;
+    }
+
+    .built img {
+        width: 90%;
+        height: 75%;
+    }
+
+    .debug img {
+        width: 75%;
+        height: 50%;
+    }
+
+    .contact-me {
+        padding-bottom: 40%;
+    }
+
+    footer h2 {
+        font-size: 25px;
+    }
+
+    .copy {
+        font-size: 20px;
+    }
+
 }
 
 @media screen and (max-width: 540px) {
 
-    
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        padding-bottom: 5%;
+    }
+
+    header nav ul {
+        margin-right: 55px;
+    }
+
+    .image img {
+        height: 40%;
+    }
+
+    .about-me {
+        padding-bottom: 100%;
+        background-size: 1595px 650px;
+    }
+
+    .description {
+        width: 65%;
+    }
+
+    .work {
+        background-size: 2025px 1200px;
+        padding-bottom: 0%;
+    }
+
+    .built {
+        position: absolute;
+        margin-top: 25%;
+    }
+
+    .built img {
+       width: 175%;
+       height: 90%;
+       right: 41%;
+       position: relative;
+    }
+
+    .debug {
+        margin-top: 120%;
+        margin-right: 0%;
+    }
+
+    .debug img {
+        width: 90%;
+    }
+
+    .contact-me {
+        background-size: 1100px 300px;
+    }
+
+    .d-for-contact {
+        background-size: 500px 300px;
+    }
+  
 }
 
 @media screen and (max-width: 414px) {
 
+    .image img {
+        margin-bottom: 15%;
+        right: 31%;
+        width: 35%;
+    }
+
+    .about-me {
+        padding-bottom: 120%;
+    }
+
+    .debug {
+        margin-top: 140%;
+    }
+
+    .contact-me {
+        padding-bottom: 70%;
+        background-size: 1000px 400px;
+    }
+
+    .d-for-contact {
+        height: 30%;
+        width: 75%;
+    }
 
 }
 
 @media screen and (max-width: 375px) {
 
+    .about-me {
+        padding-bottom: 170%;
+        background-size: 1840px 750px;
+    }
+
+    .debug {
+        margin-top: 160%;
+    }
+
+    .debug img {
+        position: relative;
+        width: 110%;
+        right: 12%;
+    }
+
+    .contact-me {
+        padding-bottom: 100%;
+        background-size: 1500px 450px;
+    }
+
+    footer h2 {
+        font-size: 18px;
+    }
+
+    .copy {
+        font-size: 15px;
+    }
     
 }
 
