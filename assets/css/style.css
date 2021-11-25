@@ -352,7 +352,8 @@ footer h2 {
     }
 
     .about-me {
-        padding-bottom: 120%;
+        padding-bottom: 150%;
+        background-size: 1595px 725px;
     }
 
     .debug {
