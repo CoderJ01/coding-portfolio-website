@@ -12,11 +12,11 @@ A website that demonstrates my grasp of HTML and CSS. The objective is to create
  * HTML
  * CSS
 
-## Screenshot of Website
-![Alt text](./assets/images/image-screenshot.JPG?raw=true "Josh's Coding Portfolio")
+ ## Screenshot of Website
+ ![Alt text](.assets/images/image-screenshot.JPG?raw=true "Josh's Coding Portfolio")
 
-## Website Link
-https://coderj01.github.io/coding-portfolio-website/
+ ## Website Link
+ https://coderj01.github.io/coding-portfolio-website/
 
-## Contribution
-Made by Joshua
+ ## Contribution
+ Made by Joshua
