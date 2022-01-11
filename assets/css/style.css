@@ -1,7 +1,7 @@
 /* CSS for overall website (index.html and resume.html) */
 :root {
-    --primary-color: white;
-    --secondary-color: #25B681;
+    --primary-color: rgb(255, 255, 255);
+    --secondary-color: rgb(37, 182, 129);
 }
 
 * {
@@ -128,9 +128,9 @@ header nav ul a:active {
 }
 
 .debug img {
-    height: 301px;
+    height: 375px;
     margin-top: 15px;
-    width: 325px;
+    width: 490px;
 }
 
 .debug img:hover {
