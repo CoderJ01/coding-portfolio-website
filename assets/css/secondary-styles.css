@@ -12,8 +12,8 @@ header {
 .background {
     padding-bottom: 95px;
     text-align: center;
-    background-image: url("../images/image-resume.jpg");
-    background-size: 1500px 850px;
+    background: rgb(3,72,143);
+    background: radial-gradient(circle, rgba(3,72,143,1) 0%, rgba(80,3,143,1) 50%, rgba(14,3,143,1) 100%);
     position: relative;
     justify-content: center;
     display: flex;
@@ -35,14 +35,13 @@ header {
 
 .experience img {
     max-width: 100%;
-    border: 10px solid var(--secondary-color);
+    border: 10px solid var(--outline);
 }  
 
 @media screen and (max-width: 1366px) {
 
     .background {
         padding-bottom: 16%;
-        background-size: 1362px 975px;
     }
 
 }
@@ -51,7 +50,6 @@ header {
 
     .background {
         padding-bottom: 34%;
-        background-size: 1025px 1300px;
     }
 
     .background h1 {
@@ -69,7 +67,6 @@ header {
 
     .background {
         padding-bottom: 19%;
-        background-size: 800px 950px;
     }
 
     .background h1 {
@@ -88,7 +85,6 @@ header {
     }
 
     .background {
-        background-size: 700px 870px;
         padding-bottom: 100px;
     }
 
