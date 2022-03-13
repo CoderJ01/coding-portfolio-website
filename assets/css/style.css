@@ -115,6 +115,10 @@ header nav ul a:active {
     font-size: 17px;
 }
 
+.built h4 {
+    text-transform: uppercase;
+}
+
 .built h3, .built h4 {
     width: 420px;
 }
@@ -212,7 +216,7 @@ footer h2 {
         height: 60%;
         right: 40%;
         bottom: 10%;
-        border: 10px solid var(--outline);
+        border: 10px solid rgb(41, 53, 205);
         border-radius: 40%;
     }
 
@@ -225,7 +229,24 @@ footer h2 {
     }
 
     .built img, .d-for-contact {
-        border: 10px solid var(--outline);
+        border: 10px solid rgb(5, 162, 81);
+    }
+
+    .built img {
+        border-color: var(--outline);;
+    }
+
+    .team text {
+        margin-left: 5px;
+        color: rgb(246, 243, 80);
+    }
+
+    .team img {
+        border-color: rgb(5, 162, 81);
+    }
+
+    .team img:active {
+        border-color: rgb(41, 53, 205);
     }
 }
 
@@ -340,6 +361,10 @@ footer h2 {
 /* iPhone 6/7/8 Plus */
 @media screen and (max-width: 414px) {
 
+    body {
+        width: 114%;
+    }
+
     .image img {
         margin-bottom: 15%;
         right: 31%;
@@ -347,7 +372,7 @@ footer h2 {
     }
 
     #about-me {
-        padding-bottom: 205%;
+        padding-bottom: 157%;
     }
 
     #contact-me {
