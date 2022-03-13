@@ -212,7 +212,7 @@ footer h2 {
         height: 60%;
         right: 40%;
         bottom: 10%;
-        border: 10px solid var(--outline);
+        border: 10px solid rgb(41, 53, 205);
         border-radius: 40%;
     }
 
@@ -225,7 +225,11 @@ footer h2 {
     }
 
     .built img, .d-for-contact {
-        border: 10px solid var(--outline);
+        border: 10px solid rgb(5, 162, 81);
+    }
+
+    .built img {
+        border: 10px solid var(--outline);;
     }
 }
 
