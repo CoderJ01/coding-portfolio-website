@@ -362,7 +362,7 @@ footer h2 {
 @media screen and (max-width: 414px) {
 
     body {
-        width: 114%;
+        width: 128%;
     }
 
     .image img {
@@ -396,14 +396,18 @@ footer h2 {
 
 /* iPhone X */
 @media screen and (max-width: 375px) {
+    
+    body {
+        width: 135%;
+    }
 
     #about-me {
-        padding-bottom: 250%;
+        padding-bottom: 135%;
     }
 
     .built img {
-        width: 140%;
-        margin-left: 110px;
+        width: 165%;
+        margin-left: 81px;
     }
 
     #contact-me {
