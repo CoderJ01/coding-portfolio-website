@@ -361,6 +361,10 @@ footer h2 {
 /* iPhone 6/7/8 Plus */
 @media screen and (max-width: 414px) {
 
+    body {
+        width: 114%;
+    }
+
     .image img {
         margin-bottom: 15%;
         right: 31%;
@@ -368,7 +372,7 @@ footer h2 {
     }
 
     #about-me {
-        padding-bottom: 205%;
+        padding-bottom: 157%;
     }
 
     #contact-me {
