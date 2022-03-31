@@ -372,7 +372,7 @@ footer h2 {
     }
 
     #about-me {
-        padding-bottom: 130%;
+        padding-bottom: 200%;
     }
 
     #contact-me {
@@ -398,7 +398,7 @@ footer h2 {
 @media screen and (max-width: 375px) {
 
     #about-me {
-        padding-bottom: 135%;
+        padding-bottom: 250%;
     }
 
     .built h4 {
