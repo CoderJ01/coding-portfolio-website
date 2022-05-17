@@ -56,7 +56,7 @@ header nav ul a:active {
 .image { 
     padding-bottom: 400px;
     position: relative;
-    background-image: url("../images/image.jpg");
+    background-image: url("../images/01_display/image.jpg");
     background-size: 1350px 700px;
 }
 
