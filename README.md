@@ -13,7 +13,7 @@ A website that demonstrates my grasp of HTML and CSS. The objective is to create
  * CSS
 
  ## Screenshot of Website
- ![Alt text](./assets/images/image-screenshot.JPG?raw=true "Josh's Coding Portfolio")
+ ![Alt text](./assets/images/00_screenshot-GitHub/image-screenshot.JPG?raw=true "Josh's Coding Portfolio")
 
  ## Website Link
  https://coderj01.github.io/coding-portfolio-website/
