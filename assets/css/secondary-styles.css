@@ -83,6 +83,10 @@ header {
     header {
         position: relative;
     }
+    
+    .main-page-btn { 
+        margin-left: 150px;
+    }
 
     .background {
         padding-bottom: 100px;
@@ -98,5 +102,19 @@ header {
 
     .experience img {
         width: 75%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .main-page-btn { 
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .main-page-btn { 
+        margin-left: 87px;
     }
 }
