@@ -100,7 +100,7 @@ header nav ul a:active {
     position: relative;
     background: rgb(5,97,116);
     background: linear-gradient(290deg, rgba(5,97,116,1) 0%, rgba(7,121,80,1) 50%, rgba(5,97,116,1) 100%);
-    padding-bottom: 150px;  
+    padding-bottom: 150px;
 }
 
 #work h2 {
@@ -237,7 +237,7 @@ footer h2 {
     }
 
     .built img {
-        border-color: var(--outline);;
+        border-color: var(--outline);
     }
 
     .team text {
@@ -324,6 +324,11 @@ footer h2 {
         padding-bottom: 5%;
     }
 
+    nav {
+        width: 490px; 
+        margin-left: -45px;
+    }
+
     header nav ul {
         margin-right: 55px;
     }
@@ -349,7 +354,7 @@ footer h2 {
     }
 
     .built h3, .built h4 {
-        width: 540px;
+        width: 510px;
         font-size: 25px;
     }
 
@@ -363,8 +368,21 @@ footer h2 {
 }
 
 /* iPhone 6/7/8 Plus */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 414px) { 
+    
+    nav {
+        width: 440px;
+    }
 
+    nav ul {
+        margin-left: 30px;
+    }
+
+    nav ul li a {
+        width: 180px;
+        margin-left: -20px;
+    }
+   
     .image img {
         margin-bottom: 15%;
         right: 31%;
@@ -414,12 +432,24 @@ footer h2 {
     }
 
     .copy {
-        font-size: 15px;
+        font-size: 15px;;
     }
 }
 
 /* iPhone X */
 @media screen and (max-width: 375px) {
+    nav  {
+        width: 410px;
+    }
+
+    nav ul li a {
+        margin-left: -25px;
+    }
+
+    .image img {
+        margin-right: -10px;
+        width: 150px;
+    }
 
     #about-me {
         padding-bottom: 250%;
