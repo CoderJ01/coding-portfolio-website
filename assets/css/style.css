@@ -84,7 +84,7 @@ header nav ul a:active {
     font-size: 25px;
 }
 
-/* description = Hellow World explanation in "About Me" section */
+/* description = Hello World explanation in "About Me" section */
 .description {
     margin: auto;
     width: 40%;
@@ -93,7 +93,7 @@ header nav ul a:active {
     margin-top: 100px;
 }
 
-#work {
+#work, #certifications {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -103,7 +103,12 @@ header nav ul a:active {
     padding-bottom: 150px;
 }
 
-#work h2 {
+#certifications {
+    background: rgb(5,24,101);
+    background: linear-gradient(300deg, rgba(5,24,101,1) 0%, rgba(64,39,162,1) 50%, rgba(5,24,101,1) 100%);
+}
+
+#work h2, #certifications h2 {
     position: absolute;
 }
 
@@ -186,7 +191,7 @@ header nav ul a:active {
     color: var(--primary-color);
 }
 
-#about-me, #work, #contact-me h2 {
+#about-me, #work, #certifications, #contact-me h2 {
     text-align: center;
     padding-top: 15px;
     font-size: 50px;
@@ -251,6 +256,14 @@ footer h2 {
 
     .team img:active {
         border-color: rgb(41, 53, 205);
+    }
+
+    .cert img {
+        border-color: rgb(78, 186, 104);
+    }
+
+    .cert img:active {
+        border-color: var(--outline);
     }
 }
 
@@ -329,6 +342,11 @@ footer h2 {
         margin-left: -45px;
     }
 
+    /* nav ul li {
+        border: 3px solid red;
+        width: 150px;
+    } */
+
     header nav ul {
         margin-right: 55px;
     }
@@ -345,7 +363,7 @@ footer h2 {
         width: 65%;
     }
 
-    #work {
+    #work, #certifications {
         padding-bottom: 20%;
     }
 
@@ -402,7 +420,7 @@ footer h2 {
         margin-left: 20px;
     }
 
-    #work h4 {
+    #work h4, #certifications h4 {
         width: 350px;
         margin-left: -10px;
     }
@@ -416,6 +434,10 @@ footer h2 {
         margin-left: -60px;
         width: 300px;
         height: 300px;
+    }
+
+    #certifications h2 {
+        font-size: 55px;
     }
 
     #contact-me {
