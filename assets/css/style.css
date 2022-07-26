@@ -93,7 +93,7 @@ header nav ul a:active {
     margin-top: 100px;
 }
 
-#work, #certifications {
+#work, #certifications, #resume {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -108,7 +108,12 @@ header nav ul a:active {
     background: linear-gradient(300deg, rgba(5,24,101,1) 0%, rgba(64,39,162,1) 50%, rgba(5,24,101,1) 100%);
 }
 
-#work h2, #certifications h2 {
+#resume {
+    background: rgb(3,72,143);
+    background: radial-gradient(circle, rgba(3,72,143,1) 0%, rgba(80,3,143,1) 50%, rgba(14,3,143,1) 100%);
+}
+
+#work h2, #certifications h2, #resume h2 {
     position: absolute;
 }
 
@@ -191,7 +196,7 @@ header nav ul a:active {
     color: var(--primary-color);
 }
 
-#about-me, #work, #certifications, #contact-me h2 {
+#about-me, #work, #certifications, #contact-me h2, #resume {
     text-align: center;
     padding-top: 15px;
     font-size: 50px;
@@ -264,6 +269,14 @@ footer h2 {
 
     .cert img:active {
         border-color: var(--outline);
+    }
+
+    .res img {
+        border-color: rgb(0, 142, 255);
+    }
+
+    .res img:active {
+        border-color: rgb(5, 162, 81);
     }
 }
 
@@ -363,7 +376,7 @@ footer h2 {
         width: 65%;
     }
 
-    #work, #certifications {
+    #work, #certifications, #resume {
         padding-bottom: 20%;
     }
 
@@ -420,7 +433,7 @@ footer h2 {
         margin-left: 20px;
     }
 
-    #work h4, #certifications h4 {
+    #work h4, #certifications h4, #resume h4 {
         width: 350px;
         margin-left: -10px;
     }
@@ -436,7 +449,7 @@ footer h2 {
         height: 300px;
     }
 
-    #certifications h2 {
+    #certifications h2, #resume h2 {
         font-size: 55px;
     }
 
