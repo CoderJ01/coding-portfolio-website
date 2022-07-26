@@ -305,6 +305,20 @@ footer h2 {
 /* iPad */
 @media screen and (max-width: 768px) {
 
+    nav ul {
+        flex-wrap: wrap;
+    }
+
+    .sd768px {
+        margin-top: 15px;
+    }
+
+    .sl {
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 147px;
+    }
+
     .image img {
         height: 50%;
         border-radius: 50%;
@@ -352,13 +366,12 @@ footer h2 {
 
     nav {
         width: 490px; 
-        margin-left: -45px;
+        margin-left: 15px;
     }
 
-    /* nav ul li {
-        border: 3px solid red;
-        width: 150px;
-    } */
+    .sl {
+        margin-left: 126px;
+    }
 
     header nav ul {
         margin-right: 55px;
@@ -400,18 +413,44 @@ footer h2 {
 
 /* iPhone 6/7/8 Plus */
 @media screen and (max-width: 414px) { 
+
+    header {
+        height: 120px;
+    }
     
     nav {
+        margin-top: -45px;
         width: 440px;
     }
 
     nav ul {
-        margin-left: 30px;
+        margin-left: 20px;
     }
 
     nav ul li a {
         width: 180px;
         margin-left: -20px;
+    }
+
+    .pa414px-r {
+        margin-left: 154px;
+    }
+
+    .pa414px-w {
+        margin-top: 30px;
+    }
+
+    .pa414px-r {
+        margin-top: 28px;
+    }
+
+    .pa414px-c {
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+
+    .pa414px-w, .pa414px-r, .pa414px-c {
+        position: absolute;
     }
    
     .image img {
@@ -480,6 +519,10 @@ footer h2 {
 
     nav ul li a {
         margin-left: -25px;
+    }
+
+    .pa414px-r {
+        margin-left: 120px;
     }
 
     .image img {
