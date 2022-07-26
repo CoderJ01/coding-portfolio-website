@@ -398,7 +398,7 @@ footer h2 {
     }
 
     .built h3, .built h4 {
-        width: 510px;
+        width: 535px;
         font-size: 25px;
     }
 
@@ -535,6 +535,7 @@ footer h2 {
     }
 
     .built h4 {
+        margin-right: -10px;
         font-size: 18px;
     }
 
