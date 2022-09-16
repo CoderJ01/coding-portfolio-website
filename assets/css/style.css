@@ -72,7 +72,7 @@ header nav ul a:active {
 }
 
 #about-me {
-    padding-bottom: 420px;
+    padding-bottom: 220px;
     background: rgb(106,0,255);
     background: linear-gradient(45deg, rgba(106,0,255,1) 0%, rgba(9,121,93,1) 50%, rgba(106,0,255,1) 100%);
     position: relative;
@@ -289,7 +289,7 @@ footer h2 {
     }
 
     #about-me {
-        padding-bottom: 52%;
+        padding-bottom: 28%;
     }
 
     .d-for-contact {
@@ -325,7 +325,7 @@ footer h2 {
     }
 
     #about-me {
-        padding-bottom: 95%;
+        padding-bottom: 50%;
     }
 
     .built img {
@@ -382,7 +382,7 @@ footer h2 {
     }
 
     #about-me {
-        padding-bottom: 120%;
+        padding-bottom: 60%;
     }
 
     .description {
@@ -460,7 +460,7 @@ footer h2 {
     }
 
     #about-me {
-        padding-bottom: 200%;
+        padding-bottom: 100%;
     }
 
     .collection {
@@ -531,7 +531,7 @@ footer h2 {
     }
 
     #about-me {
-        padding-bottom: 250%;
+        padding-bottom: 130%;
     }
 
     .built h4 {
