@@ -155,14 +155,14 @@ header nav ul a:active {
     border: 4px solid var(--outline);
 }
 
-/* .in-progress .img-top {
+.in-progress .img-top {
     position: absolute;
     z-index: 99;
 }
 
 .in-progress .img-top:hover {
     opacity: 0;
-} */
+}
 
 #contact-me {
     padding-bottom: 400px;
@@ -343,6 +343,15 @@ footer h2 {
         margin-left: 43px;
     }
 
+    /* EDIT */
+
+    .in-progress img {
+        width: 550px;
+        height: 360px;
+    }
+
+    /* EDIT */
+
     .built h3, .built h4 {
         width: 650px;
         font-size: 30px;
@@ -417,6 +426,15 @@ footer h2 {
        margin-left: 75px;
        position: relative;
     }
+
+    /* EDIT */
+
+    .in-progress img {
+        width: 365px;
+        height: 350px;
+    }
+
+    /* EDIT */
   
 }
 
@@ -497,6 +515,15 @@ footer h2 {
         height: 300px;
     }
 
+    /* EDIT */
+
+    .in-progress img {
+        width: 305px;
+        height: 280px;
+    }
+
+    /* EDIT */
+
     #certifications h2, #resume h2 {
         font-size: 55px;
     }
@@ -547,6 +574,15 @@ footer h2 {
         margin-right: -10px;
         font-size: 18px;
     }
+
+    /* EDIT */
+
+    .in-progress img {
+        width: 300px;
+        height: 280px;
+    }
+
+    /* EDIT */
 
     #contact-me {
         padding-bottom: 100%;
