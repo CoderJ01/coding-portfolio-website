@@ -411,6 +411,10 @@ footer h2 {
         margin-top: 20%;
     }
 
+    .mobile h3 {
+        max-width: 530px;
+    }
+
     .built h3, .built h4 {
         width: 535px;
         font-size: 25px;
@@ -500,8 +504,8 @@ footer h2 {
         margin-top: 100px;
     }
 
-    .iPhoneX h3 {
-        max-width: 290px;
+    .mobile h3 {
+        max-width: 287px;
     }
 
     .built img {
