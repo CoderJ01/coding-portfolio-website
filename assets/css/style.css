@@ -500,6 +500,10 @@ footer h2 {
         margin-top: 100px;
     }
 
+    .iPhoneX h3 {
+        max-width: 290px;
+    }
+
     .built img {
         position: absolute;
         margin-left: -60px;
