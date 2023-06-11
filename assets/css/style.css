@@ -40,6 +40,10 @@ header nav ul a {
     border-radius: 50%;
 }
 
+h4 {
+    text-transform: uppercase;
+}
+
 h2, 
 h3, 
 h4 {
