@@ -327,13 +327,44 @@ footer {
 
 /* iPhone 6/7/8 Plus */
 @media screen and (max-width: 414px) { 
+    header nav {
+        margin-left: 0%;
+        width: 90%;
+    }
 
+    header nav ul li a {
+        font-size: 25px
+    }
+
+    .built {
+        padding-bottom: 5vh;
+    }
+
+    h3,
+    h4 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 17px;
+    }
+
+    .copy {
+        font-size: 13px;
+    }
 }
 
 /* iPhone X */
 @media screen and (max-width: 375px) {
-    
-   
+    header nav {
+        margin-left: -5%;
+        width: 100%;
+    } 
+
+    h3,
+    h4 {
+        font-size: 20px;
+    }
 }
 
 
