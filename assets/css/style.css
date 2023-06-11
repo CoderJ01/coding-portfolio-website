@@ -40,10 +40,6 @@ header nav ul a {
     border: solid rgb(9, 18, 162);
 }
 
-h2 {
-    padding-bottom: 2vh;
-}
-
 h2, 
 h3, 
 h4 {
@@ -128,10 +124,14 @@ h4 {
     padding-top: 2vh;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Desktop */
 @media screen and (min-width: 1280px) {
-    header,
-    footer {
+    header {
         display: flex;
         justify-content: space-between;
     }
@@ -157,6 +157,7 @@ h4 {
 
     h2 {
         font-size: 55px;
+        padding-bottom: 2vh;
     }
 
     h3, 
@@ -208,7 +209,67 @@ h4 {
 
 /* iPad Pro */
 @media screen and (max-width: 1024px) { 
-    
+    header h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    header nav {
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    header nav ul {
+        font-size: 2rem;
+    }
+
+    .image {
+        padding-bottom: 5vh;
+        padding-top: 5vh;
+    }
+
+    .image img {
+        border-width: 8px;
+        height: 200px;
+        width: 200px;
+    }
+
+    h2 {
+        font-size: 3rem;
+        padding-bottom: 1vh;
+    }
+
+    h3,
+    h4,
+    h5 {
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 20px;
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    .built {
+        height: 450px;
+        margin-left: 25%;
+        padding-bottom: 10vh;
+        width: 50%;
+    }
+
+    .built img {
+        border-width: 10px;
+    }
+
+    .d-for-contact {
+        height: 200px;
+        width: 50%;
+    }
+
+    .copy {
+        font-size: 25px;
+    }
 }
 
 /* iPad */
