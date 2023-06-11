@@ -60,6 +60,11 @@ h4 {
     background: linear-gradient(290deg, rgba(5, 97, 116, 1) 0%, rgba(7, 121, 80, 1) 50%, rgba(5, 97, 116, 1) 100%);
 }
 
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .built img {
     border: solid var(--outline);
     height: 100%;
@@ -184,8 +189,6 @@ footer {
     }
 
     .projects {
-        display: flex;
-        flex-wrap: wrap;
         justify-content: space-around;
         margin-left: 10%;
         width: 80%;
@@ -264,8 +267,6 @@ footer {
     }
 
     .projects {
-        display: flex;
-        flex-wrap: wrap;
         justify-content: center;
     }
 
