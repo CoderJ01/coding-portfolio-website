@@ -318,6 +318,10 @@ footer {
         width: 90%;
     }
 
+    header nav ul li a {
+        font-size: 25px
+    }
+
     .built {
         padding-bottom: 25vh;
         width: 80%;
@@ -341,7 +345,7 @@ footer {
     }
 
     header nav ul li a {
-        font-size: 25px
+        font-size: 20px
     }
 
     .built {
