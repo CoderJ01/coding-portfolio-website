@@ -75,6 +75,10 @@ h4 {
     opacity: 0.5;
 }
 
+.built img:active {
+    border: solid var(--primary-color);
+}
+
 .built:active {
     border-color: var(--primary-color);
     opacity: 1.0;
@@ -206,7 +210,8 @@ footer {
     }
 
     .image img, 
-    .built img {
+    .built img,
+    .built img:active {
         border-width: 8px;
     }
 
@@ -277,8 +282,12 @@ footer {
 
     .built img {
         aspect-ratio: 90 / 70;
-        border-width: 10px;
         width: 96%;
+    }
+
+    .built img,
+    .built img:active {
+        border-width: 10px;
     }
 
     .team text {
