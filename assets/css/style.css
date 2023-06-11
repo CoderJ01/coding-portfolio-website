@@ -275,6 +275,7 @@ footer {
     }
 
     .d-for-contact {
+        border-width: 8px;
         height: 200px;
         width: 50%;
     }
@@ -286,7 +287,15 @@ footer {
 
 /* iPad */
 @media screen and (max-width: 768px) {
+    header nav {
+        margin-left: 7%;
+        width: 80%;
+    }
 
+    .built {
+        height: 360px;
+        padding-bottom: 15vh;
+    }
 }
 
 /* Surface Duo */
