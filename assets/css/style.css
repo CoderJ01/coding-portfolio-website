@@ -36,8 +36,8 @@ header nav ul a {
 }
 
 .image img {
-    border-radius: 50%;
     border: solid rgb(9, 18, 162);
+    border-radius: 50%;
 }
 
 h2, 
@@ -188,8 +188,8 @@ footer {
     }
 
     .built {
-        padding-bottom: 15vh;
         height: 350px;
+        padding-bottom: 15vh;
         width: 34%;
     }
 
@@ -259,15 +259,21 @@ footer {
         width: 50%;
     }
 
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .built {
-        aspect-ratio: 90 / 95;
-        margin-left: 25%;
         padding-bottom: 10vh;
         width: 50%;
     }
 
     .built img {
+        aspect-ratio: 90 / 70;
         border-width: 10px;
+        width: 96%;
     }
 
     .team text {
@@ -295,6 +301,10 @@ footer {
     .built {
         padding-bottom: 15vh;
     }
+
+    .built img {
+        width: 95%;
+    }
 }
 
 /* Surface Duo */
@@ -309,8 +319,6 @@ footer {
     }
 
     .built {
-        aspect-ratio: 90 / 85;
-        margin-left: 10%;
         padding-bottom: 15vh;
         width: 80%;
     }
@@ -337,7 +345,11 @@ footer {
     }
 
     .built {
-        padding-bottom: 5vh;
+        padding-bottom: 15vh;
+    }
+
+    .built img {
+        width: 94%;
     }
 
     h3,
@@ -360,6 +372,10 @@ footer {
         margin-left: -5%;
         width: 100%;
     } 
+
+    .built img {
+        width: 93%;
+    }
 
     h3,
     h4 {
