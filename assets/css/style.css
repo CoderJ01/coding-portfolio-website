@@ -79,7 +79,7 @@ h4 {
     border: solid var(--primary-color);
 }
 
-.built:active {
+.built img:active {
     border-color: var(--primary-color);
     opacity: 1.0;
 }
@@ -390,6 +390,10 @@ footer {
         margin-left: -5%;
         width: 100%;
     } 
+
+    .built {
+        padding-bottom: 20vh;
+    }
 
     .built img {
         width: 93%;
