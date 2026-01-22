@@ -19,7 +19,7 @@ footer {
 
 .image {
     background-image: url("../images/01_display/image.jpg");
-    background-size: 1350px 700px;
+    background-size: 1600px 800px;
     display: flex;
     justify-content: center;
 }
